@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371574EC27A6EA2F00D40A5C /* EarthQuakeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 371574E927A6EA2F00D40A5C /* EarthQuakeData.json */; };
+		371574ED27A6EA2F00D40A5C /* EarthQuakeServicesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371574EB27A6EA2F00D40A5C /* EarthQuakeServicesMock.swift */; };
+		371574EF27A6EA3800D40A5C /* EarthQuakeListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371574EE27A6EA3800D40A5C /* EarthQuakeListViewModelTests.swift */; };
 		37BFE57727A619F30088376E /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BFE56627A619F30088376E /* FilterViewModel.swift */; };
 		37BFE57827A619F30088376E /* FilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BFE56827A619F30088376E /* FilterType.swift */; };
 		37BFE57927A619F30088376E /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BFE56A27A619F30088376E /* FilterViewController.swift */; };
@@ -31,7 +34,6 @@
 		37F71BBF27A4452100B4C136 /* EathQuakeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F71BBE27A4452100B4C136 /* EathQuakeSwiftUIApp.swift */; };
 		37F71BC327A4452200B4C136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F71BC227A4452200B4C136 /* Assets.xcassets */; };
 		37F71BC627A4452200B4C136 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37F71BC527A4452200B4C136 /* Preview Assets.xcassets */; };
-		37F71BD027A4452200B4C136 /* EathQuakeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F71BCF27A4452200B4C136 /* EathQuakeSwiftUITests.swift */; };
 		37F71BDA27A4452200B4C136 /* EathQuakeSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F71BD927A4452200B4C136 /* EathQuakeSwiftUIUITests.swift */; };
 		37F71BDC27A4452200B4C136 /* EathQuakeSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F71BDB27A4452200B4C136 /* EathQuakeSwiftUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		371574E927A6EA2F00D40A5C /* EarthQuakeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EarthQuakeData.json; sourceTree = "<group>"; };
+		371574EB27A6EA2F00D40A5C /* EarthQuakeServicesMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthQuakeServicesMock.swift; sourceTree = "<group>"; };
+		371574EE27A6EA3800D40A5C /* EarthQuakeListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthQuakeListViewModelTests.swift; sourceTree = "<group>"; };
 		37BFE56627A619F30088376E /* FilterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		37BFE56827A619F30088376E /* FilterType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterType.swift; sourceTree = "<group>"; };
 		37BFE56A27A619F30088376E /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +86,6 @@
 		37F71BC227A4452200B4C136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37F71BC527A4452200B4C136 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		37F71BCB27A4452200B4C136 /* EathQuakeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EathQuakeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		37F71BCF27A4452200B4C136 /* EathQuakeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EathQuakeSwiftUITests.swift; sourceTree = "<group>"; };
 		37F71BD527A4452200B4C136 /* EathQuakeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EathQuakeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37F71BD927A4452200B4C136 /* EathQuakeSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EathQuakeSwiftUIUITests.swift; sourceTree = "<group>"; };
 		37F71BDB27A4452200B4C136 /* EathQuakeSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EathQuakeSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -112,6 +116,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		371574E727A6EA2F00D40A5C /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				371574E827A6EA2F00D40A5C /* JSON */,
+				371574EA27A6EA2F00D40A5C /* Services */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		371574E827A6EA2F00D40A5C /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				371574E927A6EA2F00D40A5C /* EarthQuakeData.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		371574EA27A6EA2F00D40A5C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				371574EB27A6EA2F00D40A5C /* EarthQuakeServicesMock.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		37BFE56327A619F30088376E /* Feature */ = {
 			isa = PBXGroup;
 			children = (
@@ -304,6 +333,7 @@
 			isa = PBXGroup;
 			children = (
 				37F71BBE27A4452100B4C136 /* EathQuakeSwiftUIApp.swift */,
+				371574E727A6EA2F00D40A5C /* Mocks */,
 				37BFE58427A61A1C0088376E /* Environment */,
 				37BFE59B27A6DA260088376E /* L10n */,
 				37BFE58627A61A1C0088376E /* Extensions */,
@@ -327,7 +357,7 @@
 		37F71BCE27A4452200B4C136 /* EathQuakeSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				37F71BCF27A4452200B4C136 /* EathQuakeSwiftUITests.swift */,
+				371574EE27A6EA3800D40A5C /* EarthQuakeListViewModelTests.swift */,
 			);
 			path = EathQuakeSwiftUITests;
 			sourceTree = "<group>";
@@ -445,6 +475,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371574EC27A6EA2F00D40A5C /* EarthQuakeData.json in Resources */,
 				37F71BC627A4452200B4C136 /* Preview Assets.xcassets in Resources */,
 				37BFE57D27A619F30088376E /* EartQuakeCell.xib in Resources */,
 				37F71BC327A4452200B4C136 /* Assets.xcassets in Resources */,
@@ -488,6 +519,7 @@
 				37BFE59227A61BA90088376E /* EarthQuakeCell.swift in Sources */,
 				37BFE57B27A619F30088376E /* EarthQuakes.swift in Sources */,
 				37BFE57E27A619F30088376E /* EartQuakeCell.swift in Sources */,
+				371574ED27A6EA2F00D40A5C /* EarthQuakeServicesMock.swift in Sources */,
 				37BFE58B27A61A1C0088376E /* NSNotification.Name+Extension.swift in Sources */,
 				37BFE57927A619F30088376E /* FilterViewController.swift in Sources */,
 				37BFE5A327A6E2AF0088376E /* EarthQuakeListUIKitView.swift in Sources */,
@@ -500,7 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37F71BD027A4452200B4C136 /* EathQuakeSwiftUITests.swift in Sources */,
+				371574EF27A6EA3800D40A5C /* EarthQuakeListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
